@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #45214A;
+    --cor2: #323050;
+    --cor3: #1A6566;
+    --cor4: #5D8A66;
+    --cor5: #ffffff;
+    --cor6: #000000;
+}
+
+header{
+    background-color: var(--cor2);
+}
+nav {
+    background-color: var(--cor3);
+}
+body{
+    background-color: var(--cor1);
+}
+section{
+    background-color: var(--cor4);
+}
