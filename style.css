@@ -13,11 +13,43 @@ header{
     background-color: var(--cor2);
 }
 nav {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
 }
 body{
     background-color: var(--cor1);
 }
-section{
+article{
+    background-color: var(--cor3);
+    min-height: 300px;
+    min-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+}
+article > section{
     background-color: var(--cor4);
+    height: 200px;
+    width: 200px;
+    
+    margin-left: 1050px;
+    border-radius: 50%;
+    text-align: center;
+}
+aside{
+    columns: 2;
+}
+#PYTHON {
+        background-color: var(--cor4);
+        height: 200px;
+        width: 200px;
+        margin-left: 100px;
+        border-radius: 50%;
+        text-align: center;
+}
+#HTML {
+    background-color: var(--cor4);
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 50%;
+    text-align: center;
 }
