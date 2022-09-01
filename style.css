@@ -67,10 +67,15 @@ article > section{
     margin-left: 900px;
     text-align: center;
 }
+article > section > img{
+    max-height: 300px;
+    max-width: 200px;
+}
 aside{
     margin-top: 15px;
     columns: 2;
 }
+
 #PYTHON {
         background-color: var(--cor4);
         height: 200px;
