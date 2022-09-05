@@ -75,7 +75,9 @@ aside{
     margin-top: 15px;
     columns: 2;
 }
-
+aside > img{
+    padding-top: 20px;
+}
 #PYTHON {
         background-color: var(--cor4);
         height: 200px;
