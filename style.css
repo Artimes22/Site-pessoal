@@ -13,6 +13,16 @@
         margin: 0px;
         padding: 0px;
     }
+a {
+    color: white;
+    text-decoration: none;
+
+}   
+a:hover{
+    background-color: var(--cor3);
+    color: var(--cor6);
+    border-radius: 10px;
+} 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
     margin: 0px;
